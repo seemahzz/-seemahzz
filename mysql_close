@@ -1,0 +1,13 @@
+ 
+   }
+   mysql_free_result(result);
+  }
+ }
+ mysql_close(&mysql);
+}
+ 
+void DeleteBook() {
+ system("cls");
+ mysql_init(&mysql);
+ if (!mysql_real_connect(&mysql, "localhost", "root", "xin088748*", "db_book", 0, NULL, 0)) {
+  printf("can't net mysql\n");
