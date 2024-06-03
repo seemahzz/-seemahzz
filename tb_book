@@ -1,0 +1,8 @@
+  char id[10];
+  scanf("%s", id);
+  char dest[100] = { " " };
+  char *sql;
+  sql = "select * from tb_book where ID = ";
+  strcat(dest, sql);
+  strcat(dest, id);
+  if (mysql_query(&mysql, dest)) {
