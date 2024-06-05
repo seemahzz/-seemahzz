@@ -1,0 +1,6 @@
+   * This method demonstrates square().
+   * @param args Unused.
+   * @return Nothing.
+   * @exception IOException On input error.
+   * @see IOException
+   */
