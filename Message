@@ -1,0 +1,3 @@
+void addRecipients(Message.RecipientType type,
+                   Address[] addresses)
+throws MessagingException
